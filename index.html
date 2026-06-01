@@ -5,38 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Live View Page-589 lugx gaming template</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     <header>
       <nav
-        class="bg-[url('/images/bg-image.jpg')] h-[800px] max-w-7xl mx-auto rounded-b-[130px]"
+        class="bg-[url('/images/bg-image.jpg')] bg-cover bg-no-repeat h-[880px] max-w-7xl mx-auto rounded-b-[130px]"
       >
-        <div class="flex items-center px-20 pt-10">
-          <div class="flex items-center">
-            <img src="images/lugx icon.png" alt="" class="w-[80px] h-[70px]" />
-            <h2 class="text-3xl font-bold text-white">LUGX</h2>
+        <div>
+          <div class="flex items-center px-20 pt-10">
+            <div class="flex items-center">
+              <img
+                src="images/lugx icon.png"
+                alt=""
+                class="w-[80px] h-[70px]"
+              />
+              <h2 class="text-3xl font-bold text-white">LUGX</h2>
+            </div>
+            <ul class="flex items-center gap-20 ml-auto text-lg text-white">
+              <li class="bg-[#1a7ff9] rounded-full px-5 py-2">Home</li>
+              <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">
+                Our Shop
+              </li>
+              <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">
+                Product Details
+              </li>
+              <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">
+                Contact Us
+              </li>
+            </ul>
+            <button
+              class="mx-10 text-white font-bold bg-[rgb(238,98,107)] rounded-full px-5 py-2"
+            >
+              SIGN IN
+            </button>
           </div>
-          <ul class="flex items-center gap-20 ml-auto text-lg text-white">
-            <li class="bg-[#1a7ff9] rounded-full px-5 py-2">Home</li>
-            <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">Our Shop</li>
-            <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">
-              Product Details
-            </li>
-            <li class="hover:bg-[#1a7ff9] rounded-full px-5 py-2">
-              Contact Us
-            </li>
-          </ul>
-          <button
-            class="mx-10 text-white font-bold bg-[rgb(238,98,107)] rounded-full px-5 py-2"
-          >
-            SIGN IN
-          </button>
         </div>
         <div class="flex items-center">
           <div class="ml-24 mt-32 text-white">
             <p class="text-xl font-medium">WELCOME TO LUGX</p>
             <p class="text-5xl font-bold max-w-lg mt-6">
-              BEST GAMING SITE EVER!
+              BEST GAMING SITE EVER! <img src="images/caption-dec.png" alt="" />
             </p>
             <p class="max-w-lg mt-14">
               LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
@@ -56,13 +65,83 @@
               </button>
             </div>
           </div>
-          <div>
-            <img src="images/imageman.jpg" alt="" />
+          <div class="relative ml-auto mt-32">
+            <img
+              src="images/imageman.jpg"
+              alt=""
+              class="rounded-3xl w-96 h-[500px] mr-24"
+            />
+            <p
+              class="absolute -bottom-3 -left-6 bg-[rgb(238,98,107)] w-16 h-16 rounded-full flex items-center justify-center text-white font-bold"
+            >
+              -40%
+            </p>
+            <p
+              class="absolute top-8 right-32 bg-[rgb(0,138,248)] rounded-full w-16 h-8 flex items-center justify-center text-white font-bold"
+            >
+              $22
+            </p>
+          </div>
+        </div>
+        <div class="relative pt-24 flex justify-evenly">
+          <div
+            class="bg-[rgb(255,255,255)] w-48 h-32 rounded-lg flex flex-col items-center justify-center font-bold shadow-xl"
+          >
+            <img
+              src="images/featured-01.png"
+              alt=""
+              class="bg-[rgb(1,113,249)] p-2 w-16 h-16 rounded-full hover:bg-[rgb(238,98,107)]"
+            />
+            <p>FREE STORAGE</p>
+          </div>
+          <div
+            class="bg-[rgb(255,255,255)] w-48 h-32 rounded-lg flex flex-col items-center justify-center font-bold shadow-xl"
+          >
+            <img
+              src="images/featured-02.png"
+              alt=""
+              class="bg-[rgb(1,113,249)] p-2 w-16 h-16 rounded-full hover:bg-[rgb(238,98,107)]"
+            />
+            <p>USER MORE</p>
+          </div>
+          <div
+            class="bg-[rgb(255,255,255)] w-48 h-32 rounded-lg flex flex-col items-center justify-center font-bold shadow-xl"
+          >
+            <img
+              src="images/featured-03.png"
+              alt=""
+              class="bg-[rgb(1,113,249)] p-2 w-16 h-16 rounded-full hover:bg-[rgb(238,98,107)]"
+            />
+            <p>REPLY READY</p>
+          </div>
+          <div
+            class="bg-[rgb(255,255,255)] w-48 h-32 rounded-lg flex flex-col items-center justify-center font-bold shadow-xl"
+          >
+            <img
+              src="images/featured-04.png"
+              alt=""
+              class="bg-[rgb(1,113,249)] p-2 w-16 h-16 rounded-full hover:bg-[rgb(238,98,107)]"
+            />
+            <p>EASY LAYOUT</p>
           </div>
         </div>
       </nav>
     </header>
-    <main class="pb-5"></main>
+    <main class="py-40">
+      <div class="ml-24">
+        <p class="text-xs text-[rgb(238,98,107)] font-bold">TRENDING</p>
+        <div class="flex justify-between">
+          <p class="text-2xl font-bold">Trending Games</p>
+          <button class="text-xs text-white bg-[rgb(238,98,107)] rounded-full p-2 mr-24 hover:bg-[rgb(0,113,248)]">VIEW ALL</button>
+        </div>
+      </div>
+      <div>
+        <img src="images/top-game-01.jpg.jpeg" alt="">
+        <p>Action</p>
+        <p>Assasin Creed <i class="fa-solid fa-lock"></i> </p>
+      </div>
+    </main>
+
     <footer>
       <div
         class="bg-[url('/images/bg-footer.jpg')] bg-cover bg-no-repeat h-[160px] w-[1280px] rounded-t-full outline-none"
